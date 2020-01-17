@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		332F33A323D06FAE00A9AB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F33A223D06FAE00A9AB97 /* AppDelegate.swift */; };
 		332F33A523D06FAE00A9AB97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F33A423D06FAE00A9AB97 /* SceneDelegate.swift */; };
-		332F33A723D06FAE00A9AB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F33A623D06FAE00A9AB97 /* ViewController.swift */; };
+		332F33A723D06FAE00A9AB97 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332F33A623D06FAE00A9AB97 /* MapScreen.swift */; };
 		332F33AA23D06FAE00A9AB97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332F33A823D06FAE00A9AB97 /* Main.storyboard */; };
 		332F33AC23D06FB200A9AB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332F33AB23D06FB200A9AB97 /* Assets.xcassets */; };
 		332F33AF23D06FB200A9AB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332F33AD23D06FB200A9AB97 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		332F339F23D06FAE00A9AB97 /* Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		332F33A223D06FAE00A9AB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		332F33A423D06FAE00A9AB97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		332F33A623D06FAE00A9AB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		332F33A623D06FAE00A9AB97 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		332F33A923D06FAE00A9AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		332F33AB23D06FB200A9AB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		332F33AE23D06FB200A9AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				332F33A223D06FAE00A9AB97 /* AppDelegate.swift */,
 				332F33A423D06FAE00A9AB97 /* SceneDelegate.swift */,
-				332F33A623D06FAE00A9AB97 /* ViewController.swift */,
+				332F33A623D06FAE00A9AB97 /* MapScreen.swift */,
 				332F33A823D06FAE00A9AB97 /* Main.storyboard */,
 				332F33AB23D06FB200A9AB97 /* Assets.xcassets */,
 				332F33AD23D06FB200A9AB97 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				332F33A723D06FAE00A9AB97 /* ViewController.swift in Sources */,
+				332F33A723D06FAE00A9AB97 /* MapScreen.swift in Sources */,
 				332F33A323D06FAE00A9AB97 /* AppDelegate.swift in Sources */,
 				332F33A523D06FAE00A9AB97 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,9 +433,11 @@
 		332F33CA23D06FB300A9AB97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLR6PBYB7P;
 				INFOPLIST_FILE = Map/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,9 +452,11 @@
 		332F33CB23D06FB300A9AB97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TLR6PBYB7P;
 				INFOPLIST_FILE = Map/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
